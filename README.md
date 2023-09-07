@@ -1,11 +1,15 @@
-Sure, I can help you edit your resume for a data science job. Here's a revised version of your resume:
 
 ---
 
 # **Mohammad Ghavidel**
 **Data Scientist | Montreal, QC**
-- LinkedIn: [linkedin.com/in/mohammad-ghavidel](https://www.linkedin.com/in/mohammad-ghavidel/)
-- GitHub: [github.com/Slmaking](https://github.com/Slmaking)
+
+[![GitHub Badge](https://img.shields.io/github/followers/slmaking?style=social)](https://github.com/giswqs?tab=followers)
+[![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-blue)](https://scholar.google.ca/citations?user=e9WsL44AAAAJ&hl=en)
+[![LinkedIn Badge](https://img.shields.io/badge/My-LinkedIn-blue)](https://www.linkedin.com/in/mohammad-ghavidel/)
+[![YouTube Badge](https://img.shields.io/badge/My-YouTube-red)](https://www.youtube.com/channel/UCBKHRO27jHyJxXgVa2BsFwg)
+[![CV Badge](https://img.shields.io/badge/My-CV-critical)](https://drive.google.com/file/d/1_4W7iUrk-MNw6ZnFNcx4Ts4eGayPmMhb/view?usp=sharing)
+
 - Email: mghavi71@gmail.com
 - Phone: 438-922-4011
 
@@ -60,4 +64,3 @@ I am a data scientist with a strong background in statistical analysis and machi
 
 ---
 
-This revised resume highlights your data science experience, achievements, and technical skills more effectively. It also provides a cleaner and more organized format for potential employers to review your qualifications. Remember to tailor your resume to each specific job application by emphasizing the skills and experiences that align with the job requirements.

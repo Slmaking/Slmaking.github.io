@@ -46,11 +46,13 @@ My newest challenge is master of français, I am on 2nd year of trail mode. J'é
 
 ## **Education:**
 
-- **Master of Science in Transportation Engineering | University of Montreal | 2022 -- 2023**
-   - GPA: 3.44/4.0
-- **Exchange Program in Computer Science | McGill University | 2022 -- 2023**
-- **Master’s Degree in Transportation and Highway Engineering | University of Tehran | 2016 -- 2019**
-- **Bachelor’s Degree in Civil Engineering | Ferdowsi University of Mashhad | 2011 -- 2016**
+| Education                                       | University/Institution               | Duration         | GPA/Result     |
+|-------------------------------------------------|-------------------------------------|------------------|----------------|
+| **Master of Science in Transportation Engineering** | University of Montreal            | 01/2022 -- 11/2023 | GPA: 3.44/4.0  |
+| **Exchange Program in Computer Science**           | McGill University                   | 09/2022 -- 10/2023 |     GPA: 4.0/4.0            |
+| **Master’s Degree in Transportation and Highway Engineering** | University of Tehran | 09/2016 -- 09/2019 |       GPA: 3.7/4.0          |
+| **Bachelor’s Degree in Civil Engineering**        | Ferdowsi University of Mashhad      | 09/2011 -- 09/2016 |                |
+
 
 ## **Technical Skills:**
 - **Programming:** Python, R, SQL, SAS, Microsoft Excel

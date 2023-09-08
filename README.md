@@ -10,27 +10,29 @@
 [![YouTube Badge](https://img.shields.io/badge/My-YouTube-red)](https://www.youtube.com/channel/UCBKHRO27jHyJxXgVa2BsFwg)
 [![CV Badge](https://img.shields.io/badge/My-CV-critical)](https://drive.google.com/file/d/1_4W7iUrk-MNw6ZnFNcx4Ts4eGayPmMhb/view?usp=sharing)
 
-- Email: mghavi71@gmail.com
-- Phone: 438-922-4011
+- Email: mohamad.ghavidel92@gmail.com
 
-## **Summary:**
-I am a data scientist with a strong background in statistical analysis and machine learning. Proficient in Python, R, and SQL, I specialize in leveraging big data technologies and cloud computing platforms like Snowflake to extract valuable insights from extensive datasets. My experience spans diverse industries, including transportation, traffic safety, urban planning, insurance, and telematics data.
+## **Meet Mohammad: The Fearless Explorer and Master of Laughter!**
+
+
+I am a data scientist with a strong background in statistical analysis and machine learning.  My experience spans diverse industries, including transportation, traffic safety, urban planning, insurance, and telematics data. Ever met someone who not only embraces challenges but greets them with a witty one-liner and a smile? That's Mohammad for you! This extraordinary individual thrives on the thrill of learning, the excitement of pushing boundaries, and the sheer joy of humor. I konw I am the only person who have so many high prasial for myself. As every Body knows there is no good deed in the world we are selfish individuals who like to help each other. I present my journey from far far away to here in Canada. 
+My newest challenge is master of français, I am on 2nd year of trail mode. J'étudie plus, mais il me faut beaucoup d'efforts pour atteindre.
+
+
 
 ## **Experience:**
 
-### **Data Scientist Intern | Intact | Montreal, QC | 2022 – Present**
+### **Data Scientist  | Intact | Montreal, QC | 2022 – Present**
 - Conduct in-depth research and analysis of sensor data to identify patterns, trends, and anomalies related to accelerometer reorientation, traffic events, and crash detection using CNN models.
 - Collaborate with a team of data science experts to develop innovative algorithms and models for time series data.
-
-**Achievements:**
 - Developed a successful method to reorient raw accelerometer data with 20% better accuracy.
 - Created a novel machine learning algorithm to detect crash data from telematics time series data.
+- Creating a robust data processing pipeline clean and analyse 10+ thousands response text data using LSTM, NB, LDA and CNN BiLSTM model (NLP).
+
 
 ### **Research Assistant (Data Analyst) | University of Tehran | 2020 – 2021**
 - Developed a statistical model to analyze vehicle travel time during rush hour using Bluetooth sensors and WIFI data.
 - Utilized Python to create a robust time series model for data-driven analysis.
-
-**Achievements:**
 - Published two articles and presented research in Sweden Stockholm. [Reference: Ghavidel, Mohammad, et al. "A Random Effects Model for Travel-Time Variability Analysis Using Wi-Fi and Bluetooth Data." Journal of Transportation Engineering, Part A: Systems 148.2 (2022): 05021012.]
 
 ## **Other Experience:**
@@ -46,6 +48,7 @@ I am a data scientist with a strong background in statistical analysis and machi
 
 - **Master of Science in Transportation Engineering | University of Montreal | 2023**
    - GPA: 3.44/4.0
+- **Exchange Program in Computer Science | McGill University | 2022 -- 2023**
 - **Master’s Degree in Transportation and Highway Engineering | University of Tehran | 2019**
 - **Bachelor’s Degree in Civil Engineering | Ferdowsi University of Mashhad | 2016**
 

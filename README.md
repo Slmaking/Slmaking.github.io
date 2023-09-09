@@ -68,7 +68,15 @@ My newest challenge is master of français, I am on 2nd year of trail mode. J'é
 - Data Science Math Skill , Duke University
 - Data visualization, Google
 - Machine Learning, Stanford University
-- Applied machine learning and Data science with Python, University of Michigan Neural Netwroks and Deep learning, DeepLearningAI
+- Applied machine learning and Data science with Python, University of Michigan Neural
+- Netwroks and Deep learning, DeepLearningAI
 - Natural language models (NLP), DeepLearningAI
+  
+## **Publications:**
+
+- Mohammad Ghavidel  and Navid Khademi  and Ehsan Bahrami Samani  and Le-Minh Kieu, "A Random Effects Model for Travel-Time Variability Analysis Using Wi-Fi and Bluetooth Data." Journal of Transportation Engineering, Part A: Systems 148.2 (2022): 05021012 https://doi.org/10.1061/JTEPBS.000062.
+- Mohammad Ghavidel and Navid Khademi and Ehsan Bahrami Samani and Sadaf Milani, "Travel Time Variability Analysis for Bluetooth Sensor Data in Highways" the 8th International
+Symposium on Transport Network Reliability (INSTR) 2020. https://doi.org/10.13140/RG.2.2.14103.19368.
+
 ---
 

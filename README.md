@@ -32,7 +32,8 @@ My newest challenge is master of français, I am on 2nd year of trail mode. J'é
 
 ### **Research Assistant (Data Analyst) | University of Tehran | 2020 – 2021**
 - Developed a statistical model to analyze vehicle travel time during rush hour using Bluetooth sensors and WIFI data.
-- Utilized Python to create a robust time series model for data-driven analysis.
+- Analyzed geo-spatial data with MATLAB and R, performing data cleaning, data manupulation, outlier identification, and interpolation.
+- Constructed traffic congestion forecasting models utilizing ARIMA and Random Effect Time Series techniques, resulting in a notable 35% reduction in the loss function.
 - Published two articles and presented research in Sweden Stockholm. [Reference: Ghavidel, Mohammad, et al. "A Random Effects Model for Travel-Time Variability Analysis Using Wi-Fi and Bluetooth Data." Journal of Transportation Engineering, Part A: Systems 148.2 (2022): 05021012.]
 
 ## **Other Experience:**

@@ -15,9 +15,11 @@
 ## **Meet Mohammad: The Fearless Explorer and Master of Laughter!**
 
 
-I am a data scientist with a strong background in statistical analysis and machine learning.  My experience spans diverse industries, including transportation, traffic safety, urban planning, insurance, and telematics data. Ever met someone who not only embraces challenges but greets them with a witty one-liner and a smile? That's Mohammad for you! This extraordinary individual thrives on the thrill of learning, the excitement of pushing boundaries, and the sheer joy of humor. I konw I am the only person who have so many high prasial for myself. As every Body knows there is no good deed in the world we are selfish individuals who like to help each other. I present my journey from far far away to here in Canada. 
-My newest challenge is master of français, I am on 2nd year of trail mode. J'étudie plus, mais il me faut beaucoup d'efforts pour atteindre.
+I'm a data scientist with a strong foundation in statistical analysis and machine learning. I've had the opportunity to work in diverse industries, including transportation, traffic safety, urban planning, insurance, and telematics data. Ever met someone who not only embraces challenges but greets them with a witty one-liner and a smile? That's Mohammad for you! 
 
+I must admit, it's not common for someone to praise themselves, but here goes. We all know that in this world, we tend to be self-interested individuals who enjoy helping each other. With that in mind, I'd like to share my journey from a land far far away to my new home in Canada.
+
+My latest challenge is mastering the French language. I'm currently in my second year of learning, and while I study diligently, it takes a lot of effort to make progress. J'étudie plus, mais il me faut beaucoup d'efforts pour atteindre mes objectifs.
 
 
 ## **Experience:**

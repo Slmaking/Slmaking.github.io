@@ -71,8 +71,8 @@ My latest challenge is mastering the French language. I'm currently in my second
 - Data Science Math Skill , Duke University
 - Data visualization, Google
 - Machine Learning, Stanford University
-- Applied machine learning and Data science with Python, University of Michigan Neural
-- Netwroks and Deep learning, DeepLearningAI
+- Applied machine learning and Data science with Python, University of Michigan 
+- Neural Netwroks and Deep learning, DeepLearningAI
 - Natural language models (NLP), DeepLearningAI
   
 ## **Publications:**

@@ -49,7 +49,7 @@ My latest challenge is mastering the French language. I'm currently in my second
 
 ## **Education:**
 
-| Education                                       | University/Institution               | Duration                |
+| Education                                       | University                  | Duration                |
 |-------------------------------------------------|-------------------------------------|--------------------------|
 | **Master of Science in Transportation Engineering** | University of Montreal            | 01/2022 -- 11/2023 | 
 | **Exchange Program in Computer Science**           | McGill University                   | 09/2022 -- 10/2023 |     

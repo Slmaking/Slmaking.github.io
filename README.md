@@ -58,9 +58,11 @@ My latest challenge is mastering the French language. I'm currently in my second
 
 
 ## **Technical Skills:**
-- **Programming:** Python, R, SQL, SAS, Microsoft Excel
+- **Programming:**
+Python (NumPy, Pandas, Scikit-learn, Keras, TensorFlow Flask), R, SQL(MySQL, Azure, Postgres), SAS
 - **Data Visualization Tools:** Tableau, Microsoft Power BI
 - **Software:** AutoCAD, ArcGIS, Vissum, Vissim
+- **Skill**: Git, Time Series Forecasting, Productionizing Models, Recommendation Engines, Customer Segmentation, Snowflake
 
 ## **Languages:**
 - English

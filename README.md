@@ -21,6 +21,10 @@ I must admit, it's not common for someone to praise themselves, but here goes. W
 
 My latest challenge is mastering the French language. I'm currently in my second year of learning, and while I study diligently, it takes a lot of effort to make progress. J'étudie plus, mais il me faut beaucoup d'efforts pour atteindre mes objectifs.
 
+Cordialement,
+
+Mohamad
+
 
 ## **Experience:**
 

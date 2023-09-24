@@ -1,25 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .message-box {
+      background-color: #3498db;
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+  </style>
   <script>
     setTimeout(function() {
       // Redirect to the original page
-      window.location.href = "slmaking.github.io"; // Replace with the actual page URL
-    }, 4000); // 3000 milliseconds (3 seconds)
+      window.location.href = "original_page.html"; // Replace with the actual page URL
+    }, 3000); // 3000 milliseconds (3 seconds)
   </script>
 </head>
 <body>
-  <footer class="footer_wrapper" id="contact">
-    <div class="container">
-      <section class="page_section contact" id="contact">
-        <div class="contact_section">
-          <h2>Contact Us</h2>
-          <div>
-            <p>Success! We will get back to you ASAP. Thank you :)</p>
-          </div>
-        </div>
-      </section>
-    </div>
-  </footer>
+  <div class="message-box">
+    <h2>Contact Us</h2>
+    <p>Success! We will get back to you ASAP. Thank you :)</p>
+  </div>
 </body>
 </html>

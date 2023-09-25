@@ -524,6 +524,21 @@ Created a novel machine learning algorithm to detect crash data from telematics 
   <div class="container">
     <div class="footer_bottom"><span>Copyright © reserved, Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
   </div>
+    <h1>Welcome to My Website</h1>
+    <p>Number of Views: <span id="viewCount">Loading...</span></p>
+  <script>
+    const countEl = document.getElementById("count");
+    countvisits();
+
+    function countvisits() {
+      fetch('https://api.countapi.xyz/update/laptop/mouse/?amount=1')
+        .then((res) => res.json())
+        .then((res) => {
+          countEl.innerHTML = res.value;
+        });
+    }
+  </script>
+    </script>
 </footer>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>

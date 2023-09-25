@@ -521,19 +521,16 @@ Created a novel machine learning algorithm to detect crash data from telematics 
       </div>
     </section>
   </div>
-	    <p>Number of Views: <span id="viewCount">Loading...</span></p>
-  <script>
-    const countEl = document.getElementById("count");
-    countvisits();
-
-    function countvisits() {
-      fetch('https://api.countapi.xyz/update/laptop/mouse/?amount=1')
-        .then((res) => res.json())
-        .then((res) => {
-          countEl.innerHTML = res.value;
-        });
-    }
-  </script>
+<main id="container">
+  <div>
+    <span id="pageviews-count"></span>
+    <h4>Pageviews</h4>
+  </div>
+  <div>
+    <span id="visits-count"></span>
+    <h4>Visits</h4>
+  </div>
+</main>
   <div class="container">
     <div class="footer_bottom"><span>Copyright © reserved, Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
   </div>

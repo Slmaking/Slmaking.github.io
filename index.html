@@ -152,20 +152,24 @@
 	     </div>
 
 <style>
-    table {
-        width: 60%; /* Adjust the width as needed */
-        height: 350px; /* Adjust the height as needed */
-        border-collapse: collapse;
-    }
-
-    td {
-        border: 1px solid black;
-        padding: 10px;
-        text-align: center;
-    }
-</style>
-        <!-- BEGIN SKILLS -->
-<table border="1">
+    <style>
+        /* Center the table contents vertically and horizontally */
+        .table-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        /* Style the progress bars on the right */
+        .progress-container {
+            margin-left: 20px; /* Add some spacing between the table and progress bars */
+        }
+    </style>
+ <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 table-container">
+                <table border="1">
     <tr>
         <td>Row 1, Col 1</td>
         <td>Row 1, Col 2</td>
@@ -202,17 +206,13 @@
         <td>Row 5, Col 5</td>
     </tr>
  </table>
-</div>
-</div>
+
 	<br>
-	     </div>
-    </div>
-	     </div>
-	     </div>
+
 
 </div>
-<div class="col-sm-6 col-md-6">
-    <div class="progress">
+            </div>
+            <div class="col-sm-6 col-md-6 progress-container">   
         <div class="progress-bar progress-bar-animated progress-bar-striped bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
             <span class="sr-only">60% Complete</span>
         </div>
@@ -248,9 +248,10 @@
         <span class="progress-completed">75%</span>
      </div>
 	</div>
-	</div>
-
-<div>
+               </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- Portfolio -->

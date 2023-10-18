@@ -12,7 +12,6 @@
 
 - Email: mohamad.ghavidel92@gmail.com
 
-## **Meet Mohammad: The Fearless Explorer and Master of Laughter!**
 
 
 I'm a data scientist with a background in statistical analysis and machine learning. I've had the opportunity to work in diverse industries, including transportation, traffic safety, urban planning, insurance, and telematics data. Ever met someone who not only embraces challenges but greets them with a witty one-liner and a smile? That's Mohammad for you! 

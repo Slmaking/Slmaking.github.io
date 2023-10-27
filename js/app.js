@@ -45,10 +45,10 @@ window.addEventListener("load", () => {
 
     //get current date and time
     const date = monthList[month] + " " + day + ", " + year;
-    const time = hourTime + ":" + minute + ":" + second + ampm;
+    const time = hourTime + ":" + minute + ":" + second + " " +ampm;
 
     //combine current date and time
-    const dateTime = date + "" + time;
+    const dateTime = date + " " + time;
 
     //print current date and time to the DOM
     document.getElementById("date-time").innerHTML = dateTime;

@@ -18,20 +18,32 @@ function incrementCounter(key, offset) {
     return count + offset; // Add offset when returning (but not to stored value)
 }
 
-// Constants for offsets
+// Constants for offsets and initial values
 const UNIQUE_VISITOR_OFFSET = 118;
 const VISIT_COUNT_OFFSET = 522;
+const INITIAL_UNIQUE_VISITORS = 501; // Start visitor count at 501
+const INITIAL_VIEW_COUNT = 2034; // Start view count at 2034
 
 // Check if this is a new visitor
 let visitorID = localStorage.getItem('visitor_id');
 let uniqueVisitors;
+
+// Initialize the unique visitor count only once if not set
+if (localStorage.getItem('unique_visitors') === null) {
+    localStorage.setItem('unique_visitors', INITIAL_UNIQUE_VISITORS);
+}
+
+// Initialize the visit count only once if not set
+if (localStorage.getItem('visit_counter') === null) {
+    localStorage.setItem('visit_counter', INITIAL_VIEW_COUNT);
+}
 
 if (visitorID === null) {
     visitorID = generateUniqueID();
     localStorage.setItem('visitor_id', visitorID);
     uniqueVisitors = incrementCounter('unique_visitors', UNIQUE_VISITOR_OFFSET);
 } else {
-    uniqueVisitors = getLocalStorageNumber('unique_visitors', 0) + UNIQUE_VISITOR_OFFSET;
+    uniqueVisitors = getLocalStorageNumber('unique_visitors', INITIAL_UNIQUE_VISITORS) + UNIQUE_VISITOR_OFFSET;
 }
 
 // Increment visit count

@@ -1,5 +1,5 @@
 function generateUniqueID() {
-    return Date.now().toString(36) + Math.random().toString(36).substr(2);
+    return Date.now().toString(36) + Math.random().toString(36).slice(2); // Use slice instead of substr
 }
 
 function getLocalStorageNumber(key, defaultValue) {
@@ -12,9 +12,10 @@ function getLocalStorageNumber(key, defaultValue) {
 }
 
 function incrementCounter(key, offset) {
-    const count = getLocalStorageNumber(key, 0);
-    localStorage.setItem(key, count + 1);
-    return count + 1 + offset;
+    let count = getLocalStorageNumber(key, 0); // Get the current count or 0 if not set
+    count += 1; // Increment by 1
+    localStorage.setItem(key, count); // Store the updated count
+    return count + offset; // Add offset when returning (but not to stored value)
 }
 
 // Constants for offsets
@@ -23,6 +24,8 @@ const VISIT_COUNT_OFFSET = 522;
 
 // Check if this is a new visitor
 let visitorID = localStorage.getItem('visitor_id');
+let uniqueVisitors;
+
 if (visitorID === null) {
     visitorID = generateUniqueID();
     localStorage.setItem('visitor_id', visitorID);
@@ -32,8 +35,16 @@ if (visitorID === null) {
 }
 
 // Increment visit count
-visitCount = incrementCounter('visit_counter', VISIT_COUNT_OFFSET);
+const visitCount = incrementCounter('visit_counter', VISIT_COUNT_OFFSET);
 
-// Display the counts
-document.getElementById('uniqueVisitors').innerHTML = `${uniqueVisitors} visitors and`;
-document.getElementById('visitCounter').innerHTML = `${visitCount} views since 2022`;
+// Ensure the DOM elements exist before updating
+const uniqueVisitorsElement = document.getElementById('uniqueVisitors');
+const visitCounterElement = document.getElementById('visitCounter');
+
+if (uniqueVisitorsElement) {
+    uniqueVisitorsElement.innerHTML = `${uniqueVisitors} visitors and`;
+}
+
+if (visitCounterElement) {
+    visitCounterElement.innerHTML = `${visitCount} views since 2022`;
+}

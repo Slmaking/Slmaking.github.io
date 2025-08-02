@@ -14,11 +14,11 @@ function incrementCounter(key) {
     return count;
 }
 
-// Initial visitor and view counts
-const INITIAL_UNIQUE_VISITORS = 501;
-const INITIAL_VIEW_COUNT = 2034;
+// ✅ Set starting counts
+const INITIAL_UNIQUE_VISITORS = 569;
+const INITIAL_VIEW_COUNT = 3011;
 
-// Initialize unique visitors and view counts on the first run
+// ✅ Set values only if not already in localStorage
 if (localStorage.getItem('unique_visitors') === null) {
     localStorage.setItem('unique_visitors', INITIAL_UNIQUE_VISITORS);
 }
@@ -26,19 +26,20 @@ if (localStorage.getItem('visit_counter') === null) {
     localStorage.setItem('visit_counter', INITIAL_VIEW_COUNT);
 }
 
-// Check if this is a new visitor
+// ✅ Visitor ID check
 let visitorID = localStorage.getItem('visitor_id');
+let uniqueVisitors;
 if (visitorID === null) {
     visitorID = generateUniqueID();
     localStorage.setItem('visitor_id', visitorID);
-    var uniqueVisitors = incrementCounter('unique_visitors');
+    uniqueVisitors = incrementCounter('unique_visitors');
 } else {
-    var uniqueVisitors = getLocalStorageNumber('unique_visitors', INITIAL_UNIQUE_VISITORS);
+    uniqueVisitors = getLocalStorageNumber('unique_visitors', INITIAL_UNIQUE_VISITORS);
 }
 
-// Increment visit count
+// ✅ Increment total view count
 const visitCount = incrementCounter('visit_counter');
 
-// Update the DOM elements
+// ✅ Update the display on your page
 document.getElementById('uniqueVisitors').innerHTML = `${uniqueVisitors} visitors and`;
 document.getElementById('visitCounter').innerHTML = `${visitCount} views since 2022`;

@@ -14,11 +14,11 @@ function incrementCounter(key) {
     return count;
 }
 
-// ✅ Set starting counts
+// Custom starting values
 const INITIAL_UNIQUE_VISITORS = 569;
 const INITIAL_VIEW_COUNT = 3011;
 
-// ✅ Set values only if not already in localStorage
+// Only initialize once per device/browser
 if (localStorage.getItem('unique_visitors') === null) {
     localStorage.setItem('unique_visitors', INITIAL_UNIQUE_VISITORS);
 }
@@ -26,7 +26,7 @@ if (localStorage.getItem('visit_counter') === null) {
     localStorage.setItem('visit_counter', INITIAL_VIEW_COUNT);
 }
 
-// ✅ Visitor ID check
+// Unique visitor setup
 let visitorID = localStorage.getItem('visitor_id');
 let uniqueVisitors;
 if (visitorID === null) {
@@ -37,9 +37,11 @@ if (visitorID === null) {
     uniqueVisitors = getLocalStorageNumber('unique_visitors', INITIAL_UNIQUE_VISITORS);
 }
 
-// ✅ Increment total view count
+// Count every visit
 const visitCount = incrementCounter('visit_counter');
 
-// ✅ Update the display on your page
-document.getElementById('uniqueVisitors').innerHTML = `${uniqueVisitors} visitors and`;
-document.getElementById('visitCounter').innerHTML = `${visitCount} views since 2022`;
+// Safely update DOM when it's loaded
+window.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('uniqueVisitors').innerHTML = `${uniqueVisitors} visitors and`;
+    document.getElementById('visitCounter').innerHTML = `${visitCount} views since 2022`;
+});
